@@ -9,7 +9,7 @@ cd hify-web && npm run dev
 
 
 # TIPS
-运行这个项目的时候，我遇到几个错。
+运行这个项目的时候，可能会遇到几个错。
 1. 打包依赖找不到，需要先执行mvn install
 mvn clean install -DskipTests
 mvn clean package -DskipTests
