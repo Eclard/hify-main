@@ -1,0 +1,30 @@
+# IDE and operating-system metadata
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local environment and runtime files
+.env
+.env.*
+!.env.example
+logs/
+.pids/
+*.pid
+hify.pid
+*.log
+
+# Java build outputs
+**/target/
+*.class
+*.jar
+*.war
+
+# Frontend dependencies and build outputs
+**/node_modules/
+**/dist/
+
+# Archive artifacts
+*.tar.gz
+*.zip
